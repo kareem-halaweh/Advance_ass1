@@ -26,3 +26,7 @@ public class PassByDemo {
         System.out.println("box.value = " + box.value); // Expect changed
     }
 }
+
+//observation 1:
+//        1. num didn't change because java pass by value .
+//        2. its change because its an object and we did change the object box value , because it did pointed to it address so we had the able to change the value .

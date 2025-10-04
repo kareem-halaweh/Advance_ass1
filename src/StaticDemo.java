@@ -22,3 +22,7 @@ public class StaticDemo {
         System.out.println("Access via object: " + c1.count);
     }
 }
+
+//observation 2:
+//        1. every time we create a new counter object its add 1 to the count .
+//2. yes u can , is there a huge different i dont think so .

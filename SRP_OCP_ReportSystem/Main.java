@@ -7,8 +7,11 @@ public class Main {
 
         ReportExporter textExporter = new TextReportExporter();
         ReportExporter jsonExporter = new JsonReportExporter();
+        ReportExporter PDFExporter = new PDFReportExporter();
+
 
         service.generateReport(report, textExporter);
         service.generateReport(report, jsonExporter);
+        service.generateReport(report, PDFExporter);
     }
 }

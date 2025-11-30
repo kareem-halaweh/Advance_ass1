@@ -1,7 +1,11 @@
-package src.OOP_exercise;
+public static void M (int x){
+    x = 55;
+    
+}
 
 public class main
 {
+
 	public static void main(String[] args)
 	{
         //robotDog dog = new animal();
@@ -11,10 +15,19 @@ public class main
 
         //rechagable dog3 = new robotDog();
 
-        animal a = new robotDog(2,"ana" , 55);
+        int x = 5;
+        M(x);
+        System.out.println(x);
 
-       a.eat();
-       a.makeSound();
+
     }
 
 }
+
+void main() {
+    int x = 5;
+    M(x);
+    System.out.println(x);
+}
+
+
